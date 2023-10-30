@@ -1,0 +1,16 @@
+{
+  "name": "2023-10-27-tailwind-demo-netninja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/styles.css -o public/styles.css",
+    "watch:css": "tailwind build src/styles.css --watch -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
