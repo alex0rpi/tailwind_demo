@@ -7,8 +7,8 @@
     <title>Document</title>
   </head>
   <body class="text-grey-600 bg-slate-200 font-body">
-    <div>
-      <div>
+    <div class="grid md:grid-cols-3">
+      <div class="md:col-span-1">
         <nav>
           <div>
             <h1 class="uppercase font-bold p-4 border-b border-gray-400">
@@ -29,7 +29,7 @@
         </nav>
       </div>
       <!-- End of NAV -->
-      <main class="px-16 py-6 bg-gray-100">
+      <main class="px-16 py-6 bg-gray-100 md:col-span-2">
         <div class="flex justify-center md:justify-end gap-4">
           <a href="#" class="text-primary">Log in</a>
           <a href="#" class="text-primary">Register</a>
@@ -42,7 +42,7 @@
 
         <div>
           <h4 class="font-bold mt-12 pb-2 border-b border-gray-400">Latest ones</h4>
-          <div class="mt-8">
+          <div class="mt-8 grid md:grid-cols-3 gap-3">
             <!-- Cards go here -->
             <div class="card">
               <img
